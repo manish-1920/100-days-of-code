@@ -16,7 +16,7 @@ int main() {
         printf("No fine");
     }
     else if (days <= 5) {
-        fine = days * 2;
+        fine = days * 2\
         printf("Library fine = ₹%d", fine);
     }
     else if (days <= 10) {
